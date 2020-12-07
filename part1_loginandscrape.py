@@ -118,8 +118,8 @@ def save_source_html(browser, profile_url, profile_idx):
 
 if __name__ == "__main__":
 
-    username = "saritahedaya@gmail.com"
-    password = "tammy123LI"
+    username = "dummyemail@gmail.com"
+    password = "dummypassword"
     browser = login_linkedin(username, password)
     print("Browser opened and user has logged in")
 
