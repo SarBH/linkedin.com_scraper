@@ -16,10 +16,10 @@ This repository contains two main scritps:
 This script iterates through a search on linkein.com, and downloads the HTMLs of the profiles on the search results.
 For example, if I wanted all profiles associated with "Intel Corporation" I would make that search on linkedin.com and copy the URL. Then I run this script with that URL and indicate how many results I want to see.
 This file performs the following tasks:
-  ● Use selenium browser to open and login to linkedin.com
-  ● Navigates to the search that we are interested in. In this case, people who worked for
+● Use selenium browser to open and login to linkedin.com
+● Navigates to the search that we are interested in. In this case, people who worked for
   Intel at some point in their careers.
-  ● Saves the html for the profiles to disk.
+● Saves the html for the profiles to disk.
 
 ### Implementation details of the scraper
 The implementation consists of keeping two queues: one for the URLs of the profiles to scrape,
