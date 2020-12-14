@@ -8,6 +8,7 @@ and the link for the search you would like to scrape (in my case, one of the URL
 “​https://www.linkedin.com/search/results/people/?keywords=intel&origin=SWITCH_SEARCH_V
 ERTICAL​”)
 - run part2_parseandwrite.py.
+
 The code will output 2 lists saved as pickles, and a company_history.csv file.
 
 This repository contains two main scritps:
